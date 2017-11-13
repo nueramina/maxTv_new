@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>编辑观点</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/teacher-center.css">
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" charset="utf-8" src="js/ueditor.config.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/ueditor.all.min.js"> </script>
+  <script type="text/javascript" charset="utf-8" src="js/lang/zh-cn/zh-cn.js"></script>
+</head>
+<body>
+	<div id="tip"></div>
+	<!-- header start-->
+	<header>
+		<ul>
+			<li><a href=""><img src="images/MAXTVlogo.png" alt=""></a></li>
+			<li><a href="">首页</a></li>
+			<li><a href="">大咖</a></li>
+			<li><a href="">大厅</a></li>
+			<li><a href="">行情</a></li>
+			<li><a href="">图文</a></li>
+			<li><a href="">视频</a></li>
+			<li><a href="">影视娱乐</a></li>
+			<li>
+        <form class="navbar-form" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control nav-search" placeholder="Search" name="q">
+            <i class="glyphicon glyphicon-search search-btn"></i>
+          </div>
+        </form>
+      </li>
+      <li>
+        <a href="">登录 &nbsp;&nbsp;|</a>
+        <a href="">&nbsp;&nbsp; 注册</a>
+      </li>
+    </ul>
+  </header>
+  <!-- header end-->
+  <div class="newmax_content">
+    <div class="personHeadline">个人中心</div>
+    <!-- 个人中心左边开始 -->
+    <div class="personalCenter_left">
+      <div class="personName">
+       <p>
+        <img src="http://placehold.it/90x90" alt="个人头像">
+      </p>
+      <p>李维斯</p>
+    </div>
+    <ul class="functionList">
+     <li>
+      <a href="teacher-center.html">
+       <i class="fa fa-user-circle"></i>
+       <span class="paspan25"></span>
+       个人首页
+       <span class="paspan25"></span>
+       <i class="fa fa-angle-right" aria-hidden="true"></i>
+     </a>
+   </li>
+   <li>
+    <a href="order-center.html">
+      <i class="fa fa-handshake-o" aria-hidden="true"></i>
+      <span class="paspan25"></span>
+      接单大厅
+      <span class="paspan25"></span>
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li  class="active">
+    <a href="edit-point.html">
+     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+     <span class="paspan25"></span>
+     编辑观点
+     <span class="paspan25"></span>
+     <i class="fa fa-angle-right" aria-hidden="true"></i>
+   </a>
+ </li>
+ <li>
+  <a href="fensi.html">
+   <i class="fa fa-heart" aria-hidden="true"></i>
+   <span class="paspan25"></span>
+   我的粉丝
+   <span class="paspan25"></span>
+   <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </a>
+</li>
+<li>
+  <a href="my-mark.html">
+   <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+   <span class="paspan25"></span>
+   我的评分
+   <span class="paspan25"></span>
+   <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </a>
+</li>
+<li>
+  <a href=".html">
+   <i class="fa fa-book" aria-hidden="true"></i>
+   <span class="paspan25"></span>
+   课堂申请
+   <span class="paspan25"></span>
+   <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </a>
+</li>
+<li>
+  <a href="question-response.html">
+   <i class="fa fa-usd" aria-hidden="true" style="float: left;margin-left: 6px;margin-top: 12px;"></i>
+   <span class="paspan25"></span>
+   有问必答
+   <span class="paspan25"></span>
+   <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </a>
+</li>
+<li>
+  <a href="teacher-settings.html">
+   <i class="fa fa-address-card-o" aria-hidden="true"></i>
+   <span class="paspan25"></span>
+   账户设置
+   <span class="paspan25"></span>
+   <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </a>
+</li>
+<li>
+  <a href="information.html">
+   <i class="fa fa-commenting-o" aria-hidden="true"></i>
+   <span class="paspan25"></span>
+   消息通知
+   <span class="paspan25"></span>
+   <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </a>
+</li>
+</ul>
+</div>
+<!-- 个人中心左边结束 -->
+
+<!-- 个人在中心右边开始 -->
+<div class="teacherCenter_right">
+  <div class="teacherCenter_right_title">
+   <ul class="edit_title">
+    <li class="active new_edit">编写观点</li>
+    <li class="old_edit">已写观点</li>
+  </ul>
+</div>
+
+<div class="edit-page new_edit-page">
+  <label for="pointTitle">观点标题：</label>
+  <input id="pointTitle" class="point_title" name="pointTitle" placeholder="请输入标题" required="" type="text">
+  <br>
+  <script id="editor" type="text/plain" style="width:800px;height:300px;"></script>
+  <br>
+  <button class="btn btn-blue"> 立 即 发 布 </button>
+</div>
+
+<div class="edit-page old_edit-page">
+ <div class="media">
+  <div class="media-body fnt-smaller">
+   <h4 class="media-heading">战狼2大火北京文化股票还能涨吗?</h4>
+   <p class="edit_contain">战狼2大火北京文化股票还能涨吗,战狼2大火北京文化股票还能涨吗,战狼2大火北京文化股票还能涨吗,战狼2大火北京文化股票还能涨吗</p>
+   <div class="edit_footer">
+    <span>赞 （222）</span> <span> 阅读（8888）</span>
+    <span class="pull-right">2017-10-11 12：20</span>
+  </div>
+</div>
+</div>
+
+<div class="media">
+  <div class="media-body fnt-smaller">
+   <h4 class="media-heading">战狼2大火北京文化股票还能涨吗?</h4>
+   <p class="edit_contain">战狼2大火北京文化股票还能涨吗,战狼2大火北京文化股票还能涨吗,战狼2大火北京文化股票还能涨吗,战狼2大火北京文化股票还能涨吗</p>
+   <div class="edit_footer">
+    <span>赞 （222）</span> <span> 阅读（8888）</span>
+    <span class="pull-right">2017-10-11 12：20</span>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+<!-- 个人在中心右边结束 -->
+</div>
+<!-- 公共悬浮 返回顶部  二维码 回到首页-->
+<ul id="newSuspended">
+ <li class="bac_top" id="bac_top"></li>
+ <li class="bac_index"></li>
+ <li class="dow_app"></li>
+</ul>
+<div class="dow_app_p"></div>
+<!-- 公共悬浮 返回顶部  二维码 回到首页结束-->
+<script type="text/javascript" src="js/teacher-center.js"></script>
+
+
+<script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+    ue.ready(function(){
+    //设置编辑器的内容
+    ue.setContent("");
+    //获取html内容，返回: <p></p>
+    var html = ue.getContent();
+    //获取纯文本内容，返回: hello
+    var txt = ue.getContentTxt();
+  });
+
+    function isFocus(e){
+      alert(UE.getEditor('editor').isFocus());
+      UE.dom.domUtils.preventDefault(e)
+    }
+    function setblur(e){
+      UE.getEditor('editor').blur();
+      UE.dom.domUtils.preventDefault(e)
+    }
+    function insertHtml() {
+      var value = prompt('插入html代码', '');
+      UE.getEditor('editor').execCommand('insertHtml', value)
+    }
+    function createEditor() {
+      enableBtn();
+      UE.getEditor('editor');
+    }
+    function getAllHtml() {
+      alert(UE.getEditor('editor').getAllHtml())
+    }
+    function getContent() {
+      var arr = [];
+      arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+      arr.push("内容为：");
+      arr.push(UE.getEditor('editor').getContent());
+      alert(arr.join("\n"));
+    }
+    function getPlainTxt() {
+      var arr = [];
+      arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
+      arr.push("内容为：");
+      arr.push(UE.getEditor('editor').getPlainTxt());
+      alert(arr.join('\n'))
+    }
+    function setContent(isAppendTo) {
+      var arr = [];
+      arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
+      UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
+      alert(arr.join("\n"));
+    }
+    function setDisabled() {
+      UE.getEditor('editor').setDisabled('fullscreen');
+      disableBtn("enable");
+    }
+
+    function setEnabled() {
+      UE.getEditor('editor').setEnabled();
+      enableBtn();
+    }
+
+    function getText() {
+        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
+        var range = UE.getEditor('editor').selection.getRange();
+        range.select();
+        var txt = UE.getEditor('editor').selection.getText();
+        alert(txt)
+      }
+
+      function getContentTxt() {
+        var arr = [];
+        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
+        arr.push("编辑器的纯文本内容为：");
+        arr.push(UE.getEditor('editor').getContentTxt());
+        alert(arr.join("\n"));
+      }
+      function hasContent() {
+        var arr = [];
+        arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
+        arr.push("判断结果为：");
+        arr.push(UE.getEditor('editor').hasContents());
+        alert(arr.join("\n"));
+      }
+      function setFocus() {
+        UE.getEditor('editor').focus();
+      }
+      function deleteEditor() {
+        disableBtn();
+        UE.getEditor('editor').destroy();
+      }
+      function disableBtn(str) {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+          if (btn.id == str) {
+            UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+          } else {
+            btn.setAttribute("disabled", "true");
+          }
+        }
+      }
+      function enableBtn() {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+          UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+        }
+      }
+
+      function getLocalData () {
+        alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
+      }
+
+      function clearLocalData () {
+        UE.getEditor('editor').execCommand( "clearlocaldata" );
+        alert("已清空草稿箱")
+      }
+    </script>
+  </body>
+  </html>
