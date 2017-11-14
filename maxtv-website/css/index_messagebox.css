@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*直播间的新加样式*/
+.classroomfixdiscussV2,
+.classroomfixdiscuss{width: auto;height:auto;position: fixed; background: rgba(255,255,255,.8);right: -10px;top:300px;  cursor:pointer; z-index:100}
+.normaldiscuss {width: 20px;float: right;margin-right: 10px;line-height: 14px; }
+.discuss{position:relative; padding:10px; }
+.discuss:hover{background:white;}
+.lighthigndiscuss{float:right; /*width:332px; height:527px;*/ cursor: initial; padding:10px; overflow:hidden; display:none;}
+.lighthigndiscuss p{margin: 0;width: 104%;background: white;padding: 10px;padding-right: 30px;position: relative;top: -10px;left: -10px; position:relative;    font-weight: 700;}
+.phoneVdicussList{height: 466px;overflow-x: hidden;overflow-y: scroll; padding:0 0 30px 0;}
+  .phoneVdicussList li{ padding:18px 0 11px 0;    background: url(../images/Forma.png) no-repeat 0px 27px;}
+  .discussClose{position:absolute; width:20px; height:20px; right:18px; cursor:pointer; background: url(../images/close.png) no-repeat center center;}
+  .phoneVLevel{float: left; margin-right: 10px; width: 37px;height: 16px;color: #fff;text-align: center;line-height: 16px;/*background: #f0b535;*/-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px; font-size:0}
+.phoneVname{color: #31a3fb;}
+.phoneVtime{float: right; margin-right:6px;}
+.phoneVmsg{margin-top: 17px;margin-left: 48px; color: #000; clear:both;}
+.lighthigndiscuss.test{-webkit-animation: fall 1.5s cubic-bezier(0.5, 0, 1, 0.5) forwards;
+  -moz-animation: fall .5s cubic-bezier(0.5, 0, 1, 0.5) forwards;
+  -ms-animation: fall .5s cubic-bezier(0.5, 0, 1, 0.5) forwards;
+  animation: fall .5s cubic-bezier(0.5, 0, 1, 0.5) forwards;}
+  @-webkit-keyframes fall {
+    0%{height:36px;width:0px;}
+    50%{width:332px;height:36px;}
+
+    100%{height:527px;width:332px;}
+    }
+  @-moz-keyframes fall {
+    0%{height:36px;width:0px;}
+    50%{width:332px;height:36px;}
+
+    100%{height:527px;width:332px;}
+  }
+  @keyframes fall {
+    0%{height:36px;width:0px;}
+    50%{width:332px;height:36px;}
+    100%{height:527px;width:332px;}
+  }
+  @-o-keyframes fall {
+    0%{height:36px;width:0px;}
+    50%{width:332px;height:36px;}
+
+    100%{height:527px;width:332px;}
+  }

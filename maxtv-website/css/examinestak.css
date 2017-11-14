@@ -1,0 +1,132 @@
+body{background-color: #f6f6f6 !important;}
+ul{padding:0;}
+ul li{list-style: none;}
+/* 诊股 */
+.examine-stak{width: 1080px;margin: 10px auto;}
+.swiper-banner img{max-width: 1080px;min-width: 1080px;}
+.examine-panel{margin-top: 5px; width: 730px;display: inline-block;clear: both;background-color: #fff;}
+.examine-title{border-bottom: 1px solid #ccc;width: 690px;padding: 5px;}
+.examine-info ul li{border-bottom: 1px solid #ddd;margin-top: 10px;padding-bottom: 5px;}
+.examine-contain{width: 606px;height: 120px; margin-top: 5px; display: inline-block;vertical-align: middle;}
+.examine-contain p b{padding-right: 20px}
+.examine-contain-fr{float: right;}
+.examine-avatar{content: '';display: inline-block;vertical-align: middle;width: 90px;height: 90px;border-radius: 50%;background: url('http://1.viki.io/a/ph/avatar_profile-acc6c5a5a9d35bd7d292dfd776cfec76.png?s=30x30&f=t&cb=1');background-size: 100%;margin: 10px 5px;}
+.avatar-img{display: inline-block;vertical-align: middle;width: 90px;height: 90px;border-radius: 50%;margin: 10px 5px;}
+.loade-more-btn{width: 230px;height: 40px; opacity: 0.3;background: #11418E;border-radius: 2px;color: #fff;border:none;margin:50px 250px;}
+.tiwen{cursor: pointer;}
+.tel-question{margin-left: 240px;}
+.btn-circle {width: 30px;height: 30px;text-align: center;padding: 6px 0;font-size: 12px;line-height: 1.428571429;border-radius: 15px;outline: none !important;margin-left: 98px; margin-top: 15px;}
+.btn-circle.btn-lg {width: 50px;height: 50px;padding: 15px 0;font-size: 14px;line-height: 1.33;border-radius: 25px;}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {color: #f7f2f2 !important;background-color: #f15d5d !important;border-color: #e44e4e !important;}
+.price-radio{margin-left: 15px;}
+.question-submit{text-align: center;padding: 28px 0}
+
+
+/* 诊股人气排行 */
+.popularity{width: 340px;margin-top: 5px;display: inline-block;margin-left: 5px;clear: both;float: right;background-color: #fff;}
+.popularity-title{border-bottom: 1px solid #ccc;padding: 5px;width: 330px;}
+.popularity-title b{padding-right: 140px;}
+.popularity-title span{margin-left: 23px;cursor: pointer;}
+.popularity-title span:hover{color: #F31111;border-bottom: 2px solid #F31111;padding-bottom: 6px;}
+.popularity-title span.active{color: #F31111;border-bottom: 2px solid #F31111;padding-bottom: 6px;}
+.img-avatar{display: inline-block;vertical-align: middle;width: 40px;height: 40px;border-radius: 50%;margin: 10px 5px;}
+.popularity-info-md{display: inline-block;line-height: 10px;padding-top: 2px;height: 38px;vertical-align: middle;}
+.popularity-info-fr{float: right;line-height: 40px;padding-right: 10px;}
+.popularity-ads{width: 340px;overflow: hidden;}
+.popularity-ads img{width: 100%; margin-top: 10px;}
+.red{color: red;}
+.yellow{color:#EFB534;}
+
+/* 诊股 test.css */
+.index-examine{width: 1080px; margin: 0 auto;background-color: #fff;}
+.index-examine-title{border-bottom: 1px solid #D8D8D8;padding: 10px;}
+.index-examine-title b{font-size: 24px;color: #333333;line-height: 24px;font-weight: normal;}
+/*Business Card Css */
+.business-card {height: 176px;border: 1px solid #cccccc;background: #f8f8f8;padding: 10px;margin-top: 20px;}
+.business-card:hover{cursor: pointer;box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);}
+.media-body b{font-size: 20px;font-weight: normal;}
+.profile-img {height: 90px;width: 64px;background: white;}
+.job {color: #666666;font-size: 12px;}
+.mail {margin-top: 10px;font-size: 12px;color: #333333;line-height: 16px;height: 46px;white-space: normal;overflow: hidden;text-overflow: ellipsis;}
+.fr{float: right;}
+.stars{color:#EFB534;}
+.btn-dingyue{background: #EFB534;border-radius: 100px;color: #fff; padding: 5px 15px;cursor: pointer;}
+.btn-guanzhu{background: #11418E;border-radius: 100px;color: #fff; padding: 5px 15px;cursor: pointer;margin-left: 100px;}
+
+/* 诊股老师详情页 */
+.teacher-info{width: 1080px; margin: 20px auto;background-color: #fff;}
+.teacher-info-title{height: 302px;width: 100%;text-align: center; color: #fff; background: url("../img/teacher-title.png") no-repeat 100% 100%;}
+.teacher-info-title h3{font-size: 24px;margin-top: 5px !important;}
+.teacher-info-title ul li{display: inline-block;margin: 0 18px;font-size: 18px;}
+.teacher-info-title ul li span{padding-left: 5px;}
+.teacher-info-title p{margin: 15px;}
+.teacher-info-title p span{padding: 5px 15px;}
+.teacher-head{width: 120px;height: 120px;border-radius: 100px;margin-top: 20px;}
+.btn-zhengu{background: #FC5E5B;border-radius: 100px;color: #fff; padding: 5px 15px;cursor: pointer;}
+.btn-ding{background: #EFB534;border-radius: 100px;color: #fff; padding: 5px 15px;cursor: pointer;margin-left: 50px;}
+.teacher-text-contain{padding: 20px;font-size: 14px;color: #666666;line-height: 22px;border-bottom: 1px solid #D8D8D8;}
+.teacher-class{padding: 20px;}
+.teacher-class .media .media-body .media-heading{margin-top: 20px;margin-bottom: 5px;}
+.teacher-class .media-right{vertical-align: middle;}
+/* Tabs panel */
+.tabbable-panel {border:1px solid #eee;padding: 10px;}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {border: none;margin: 0px;}
+.tabbable-line > .nav-tabs > li {width: 130px;text-align: center;margin-right: 2px;}
+.tabbable-line > .nav-tabs > li > a {font-size: 18px;color: #666666;line-height: 22px;border: 0;margin-right: 0;}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+  color: #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #f3565d;
+}
+
+
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+  color: #f3565d;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #f3565d;
+}
+
+.tabbable-line > .tab-content {margin-top: -3px;background-color: #fff;border: 0;border-top: 1px solid #eee;padding: 15px 0;}
+.portlet .tabbable-line > .tab-content {padding-bottom: 0;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {color: #f3565d !important;cursor: default;background-color: #fff;border: 0 !important;border-bottom-color: transparent;}
+.tab-pane .panel-body{font-size: 14px;color: #666666;line-height: 22px;}
+.tab-pane h3{font-size: 18px;color: #333333;line-height: 24px;}
+.panel-body p span{color: #aaa;padding-right: 50px;}
+.examine-footer{text-align: center;}
+.techear-fr{float: right; padding: 5px 20px;background-color: #f3565d;color:#fff;border-radius: 5px;}
+.thumbnail {display: block;padding:4px;color: #1a1a1a;margin-bottom: 20px;line-height: 1.42857143;background-color: #fff;border: none !important;border-radius: 4px;-webkit-transition: border .2s ease-in-out;-o-transition: border .2s ease-in-out;transition: border .2s ease-in-out;}
+.thumbnail:hover{color: #1a1a1a;text-decoration: none;}
+.thumbnail>img{height:152px !important; }
+.thumbnail p{margin: 0 !important; font-size: 14px;color: #333333;line-height: 22px;}
+/*订阅框样式*/
+#new_Dy .modal-content{padding:10px 30px 20px 30px;width: 640px;}
+#new_Dy .modal-footer{text-align: center;}
+#new_Dy .btn-primary{background-image: linear-gradient(-135deg, #F71A1A 0%, #F76832 100%);border-radius: 100px;border: 0;outline: none;font-size: 14px;color: #FFFFFF;padding: 13px 32px;}
+#new_Dy .modal-title{font-size: 24px;color: #000000;line-height: 24px}
+#new_Dy .Dy_teacher{width: 546px;border-bottom: 1px solid #D8D8D8;padding-bottom: 30px;}
+#new_Dy .Dy_teacher div.dy_head{font-size: 14px;color: #333333;line-height: 14px;margin-top: 0px;}
+#new_Dy .Dy_teacher div.dy_teacher{font-size: 14px;color: #333333;line-height: 14px;margin-top: 20px;}
+#new_Dy .Dy_teacher div.dy_time{font-size: 14px;color: #333333;line-height: 14px;margin-top: 48px;overflow: hidden;text-align: left;}
+#new_Dy .Dy_teacher div.dy_gold{font-size: 14px;color: #333333;line-height: 14px;margin-top: 40px;}
+#new_Dy .Dy_teacher div.dy_clause{font-size: 14px;color: #333333;line-height: 14px;margin-top: 20px;}
+#new_Dy .Dy_teacher div.dy_teacher img{width: 40px;height: 40px;margin-left: 11px;margin-right: 15px;border-radius: 50%;}
+#new_Dy .Dy_teacher div.dy_gold .pay_gold{color: #FC3333;}
+#new_Dy .Dy_teacher div.dy_clause .xieyi{color: #259DFB;}
+#new_Dy .Dy_teacher div.dy_time .new_long{display: inline-block;width: 88px;height: 90px;border: 1px solid #D8D8D8;float: left;margin-left: 30px;font-size: 14px;color: #333333;line-height: 18px;text-align: center;padding-top: 17px;background-color: #D8D8D8;}
+#new_Dy .Dy_teacher div.dy_time a{display: inline-block;float: left;}
+#new_Dy .Dy_teacher div.dy_time .new_long .new_mum{font-size: 36px;color: #333333;}
+#new_Dy .Dy_teacher div.dy_time .new_long .new_gold{font-size: 12px;color: #333333;line-height: 12px;}
+.new_long hr {margin-top: 9px;margin-bottom: 8px;border: 0;border-top: 1px solid #eee;width: 70px;margin-left: 8px;}
+.dy_gold .pay_gold{margin-left: 28px;font-size: 14px;color: #FC3333;line-height: 14px;}
+.dy_clause{margin-left: 120px;margin-top: 30px;}
+.v-title{width: 170px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;display: inline-block}

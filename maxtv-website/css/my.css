@@ -1,0 +1,152 @@
+.ylf_attention{display:inline-block;width:107px;height:37px;line-height:37px;text-align:center;color:#fff;margin:20px 12.5px 0;background-color: #F84485;}
+.ylf_liking{position:absolute;top:0;right:17px;width:117px;height:28px;color:#fff;background:#31a3fb;font-size:12px;text-align:center;line-height:28px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.replaceFormTag{width: 414px; height: auto; padding: 26px 57px; background: #fff; margin-top: 40px;}
+.replaceFormTag .title{font-size: 20px;margin-bottom: 13px;}
+.replaceFormTag .form-group{margin-bottom: 0;}
+.replaceFormTag .btn-special{ width: 100%;height: 40px; line-height: 40px;}
+
+/*财富视界收藏按钮*/
+.wvideo-newest-favbtn{width: 65px;height: 28px;text-align: center;line-height: 28px; color: #fff;font-size: 14px;cursor: pointer; background-color:#f0b535}
+.wvideo-newTitle-wrap{position:relative;}
+
+/*答疑解惑样式*/
+.Faq_Wraper{width:1190px; margin:0 auto;  background:url(images/FaqrightBanner.png) no-repeat right bottom; min-height:668px;}
+.showFaq_left{width:800px; background-color:#f8f8f8; padding:20px; min-height:668px; text-align:center}
+.showFaq_info{border:1px solid #e6e6e6; background-color:#fff; color:#333; font-size:14px; line-height:24px; text-align:left; padding:20px;}
+.faqSendbtn{display:inline-block; width:110px; height:38px; background-color:#31a3fb; color:#fff; font-size:18px; line-height:38px;word-spacing:8px; letter-spacing: 8px; border:none; margin-top:40px;}
+.faqSendbtn:hover{ opacity: .8; color:#fff;}
+.repContent{border:1px solid #cccccc; background-color:#fff;text-align: left;min-height: 140px;line-height: 24px;padding:20px;padding-top: 40px;font-size: 15px;}
+.Faq_Wraper h2{font-size:20px; color:#000; line-height:38px;  border-bottom: 1px solid #ddd; margin:20px 0;}
+.color999{color:#999;}
+.repContentT{color:#333; line-height:30px; text-align:left; padding:20px;}
+.coolscrollbar{width:100%; height:200px; padding:10px 20px;}
+.askFaqWraper{padding:60px;}
+.askFaqWraper p{ text-align:left; padding:10px 0;}
+.askFaqWraper select,
+.askFaqWraper #title,
+.askFaqWraper textarea{width:600px; height:30px; font-size:14px;}
+.askFaqWraper select{width:596px;}
+.askFaqWraper textarea{height:180px; padding:10px;}
+.vtop{ vertical-align:top}
+.formlabelSty{display:inline-block; min-width:70px; text-align:right}
+
+/*home-名师殿堂-操盘宝*/
+.wealth-new-managerinfo .tab div{width:25%;}
+.cpb_title{height:44px; line-height:44px; border-bottom:1px solid #ebebeb; color:#000; margin:40px 0;}
+.wealthlist_caopanbao th{ height:46px; line-height:46px; background-color:#e2e2e2; font-size:15px;}
+.wealthlist_caopanbao td{min-height:116px; height:116px;}
+.wealthlist_caopanbao tr td:nth-of-type(3){width:400px; word-break:break-all; }
+.wealthlist_caopanbao .table>tbody>tr>td{border:none;}
+.wealthlist_caopanbao tr:nth-of-type(2n){background-color:#f7f7f7; }
+.buybtn{width:88px; color:#fff; font-size:15px; height:38px; line-height:38px; display:block; margin:0 auto; background-color:#f03333; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; margin-top:10px;}
+.buybtn:focus, .buybtn:hover,
+.buybtn:visited {color:#fff}
+.hotdog{position: relative;left: 2px;top: -8px;}
+.newinfo-list .cat{width:27%; margin-left: 75px;}
+
+/*addFomous*/
+.liveconfig-form-addfamous.liveconfig-form{width:800px; }
+.form-group1{width:100%; margin-bottom:14px; text-align:center;}
+.liveconfig-form .form-group1 .control-label,
+.form-group1 .col-sm-2{width:10%;}
+.form-group1  .col-sm-10{width: 85%;}
+.form-group1 .btn-special{margin-left: 74px; margin-top:50px;}
+.ke-content img{max-width:100%;}
+
+
+/*财服急送-new -20160513*/
+
+.mb10{margin-bottom:10px;}
+
+.jisong_left{width:838px; }
+.jisong_right{width:333px;  border:1px solid #e8e8e8;}
+.jisong_mapnav{color:#999; line-height:60px; font-size:12px; letter-spacing: 2px;}
+.jisong_right dt{padding: 0 10px;
+    height: 38px;
+    line-height: 38px;
+    font-size:18px; border-bottom: 1px solid #e8e8e8; padding-left:49px; background:url(images/previeOrdericon.png) no-repeat 12px center;}
+.jisong_right dd{padding:0 6px;margin: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+    position: relative;}
+.jisong_right dd i{ font-style:normal; font-size:12px; color:#999;}
+.jisong_left{border-top:2px solid #104999;}
+.jisong_left .table>thead>tr>th{line-height:40px; padding:0;}
+.jisong_left th,
+.jisong_left td{ word-break:break-all; word-wrap:break-word;}
+.jisong_left th{width:10%; color:#333;}
+.jisong_left tr th:nth-of-type(1){width:20%}
+.jisong_left tr th:nth-of-type(2){width:50%}
+.jisong_left tr th:nth-of-type(3){width:20%}
+.jisong_left img{width:60px; height:60px; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -o-border-radius:30px;  -ms-border-radius:30px; margin-right:10px;}
+.jisong_left td{height:106px; line-height:106px;}
+.jisong_left tr:nth-of-type(2n){ background-color:#f4f4f4;}
+.jisong_left .table>thead>tr>th,
+.jisong_left .table>tbody>tr>td{ border:0 none;}
+.loadmore_btn{ background-color:#194a8f; color:#fff; width:162px; height:40px; line-height:40px; text-align:center;  margin: 41px auto 0;}
+#back-to-top{position:fixed;display:block; bottom:100px; right:80px;}
+#back-to-top a{text-align:center;text-decoration:none;color:#d1d1d1;display:block;width:64px;-moz-transition:color 1s;-webkit-transition:color 1s;-o-transition:color 1s;}
+#back-to-top a:hover{color:#979797;}
+#back-to-top a span{ background:transparent url(images/backTop.png) no-repeat center center;border-radius:6px;display:block;height:50px;width:64px;margin-bottom:5px;-moz-transition:background 1s; -webkit-transition:background 1s;-o-transition:background 1s;}
+#back-to-top a:hover span{background:transparent url(images/backTop.png) no-repeat center center;}
+
+.jisong_autor{padding-bottom: 15px;border-bottom: 1px solid #e8e8e8;}
+.information_left img {border-radius: 0;-webkit-border-radius: 0;-moz-border-radius: 0;-o-border-radius: 0;-ms-border-radius: 0;border: 1px solid #eee;}
+
+/*资讯*/
+.information_left{border-top:none; margin-top:-20px;}
+.DocListli{padding:20px 0; border-bottom:1px dashed #dedede;}
+.DocListli img{width:240px; height:160px; float:left;}
+.DocListli_fr{width:580px; float:left;}
+.DocListli_fr h3{font-size:22px;color:#000;margin-top:10px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.DocListli_fr p{font-size:14px;min-height:64px;height:64px;max-height:64px;line-height:20px;overflow: hidden;word-break: break-all;}
+.color999{color:#999;}
+.mt20{margin-top:20px;}
+.information_fr dt{height:42px; line-height:42px; padding-left:74px; color:#666; position:relative; background-color:#f1f1f1; background-image:none;}
+.information_fr dt img{position:absolute; left:10px; bottom:0;}
+.breadcrumb_bg{color:#999;line-height:60px;font-size:12px;background-color: #f6f6f6;height: 40px;margin-bottom: 20px;line-height: 40px;position: absolute;width: 100%;left: 0;color: #666;box-shadow: 0px 2px 5px #999; z-index:-1;}
+
+/*个人中心-我的操盘宝-字数显示*/
+.traderbay_title{width: 600px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-align: center;}
+
+/*全部操盘宝列表样式*/
+.allTraderbay tr.DocList td:nth-of-type(1) {
+    padding-left: 50px;
+    text-align: left;
+    background: url(/Public/Home/my/images/Word-4.png) no-repeat 10px center;
+}
+/* 操盘宝搜索栏样式 */
+.cpb_serach{width:100%;height:70px;border:1px solid #ebebeb;padding: 0 12px;margin-bottom: 40px;}
+.cpb_serach input{display:inline-block;margin-top:22px;width: 170px;padding: 0 4px;}
+.cpb_serach_btn{margin-right: 12px;border-radius: 5px;background-color: #31a3fb;color: #fff;width: 95px;border: 0px;height: 38px;}
+#xz{display: inline-block;width: 170px;}
+.spacebox{display: inline-block;min-width: 100px;vertical-align: middle;}
+.allTraderbaybr{border:0; margin-bottom:10px;}
+
+/*我加的css开始*/
+.carousel-control.right,
+.carousel-control.left {background-image: none;}
+.carousel .item {min-height: 350px;height: 100%;width:100%;background: #212121;}
+.carousel .item p{color: #fff;text-align: center;padding-top: 18px;}
+.carousel-control {bottom: 535px  !important;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {width: 30px;height: 30px;margin-top: 5px;font-size: 18px !important;}
+.border-line{border-top: 1px solid #666;}
+.border-line ul{max-height: 470px;overflow-y: auto;}
+.border-line ul li{color: #ccc;padding: 16px 12px;}
+.border-line ul li:hover{background: #11418E;color: #fff;cursor: pointer;}
+.border-line ul li.active{background: #11418E;color: #fff;}
+.border-line ul li .span-right{line-height: 12px;padding-left: 20px;display:inline-block;width:138px;text-overflow: ellipsis;white-space:nowrap;overflow:hidden;}
+::-webkit-scrollbar {
+    width: 0;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.5); 
+} 
+
+/* ::-webkit-scrollbar-button {
+  background: #444;
+} */

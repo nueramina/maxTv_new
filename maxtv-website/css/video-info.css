@@ -1,0 +1,65 @@
+html,body{background-color: #f5f5f5 !important;}
+a,a:focus,a:hover{text-decoration:none !important;}
+header{height: 64px;width: 100%;padding: 0;margin: 0 auto;background-color: #ffffff;border: 1px solid #F4F4F4;}
+header ul{list-style: none;margin: 0 auto;width: 1440px;}
+header ul li{display: inline-block;float: left;line-height: 64px;margin: 0 35px;}
+header ul li a{font-size: 14px;color: #333333;line-height: 14px;text-decoration: none;}
+header ul li .navbar-form{margin-top: 0 !important;}
+::-webkit-scrollbar{width:0;}
+.nav-search{position: relative;border-radius: 100px !important;}
+.search-btn{position: absolute !important;top: 10px !important; right: 12px;z-index: 99; cursor: pointer;}
+.video-info{width: 1080px;height: 100px;margin: 0 auto;}
+.video-players{margin-top: 10px;}
+.video-players-left{width: 717px;height: 506px;display: inline-block;}
+.index-video-show{width:717px;min-height:506px;height:510px;max-height:506px;float:left;background-color:#333;position:relative;}
+.videowarningmsg{height: 40px;line-height: 40px;margin:0;text-align:left;padding:0 10px;color:#999;font-size:12px;margin-top:-3px;position: relative;}
+.txtcenter{text-align:center;}
+
+.video-players-right{width: 363px;height: 506px;display: inline-block;background-color: #111;float: right;overflow-y:auto;}
+.video-players-right .media{color: #fff;margin: 20px;}
+.video-players-right .media .media-left{position: relative;}
+.video-players-right .media .media-left .playing{position: absolute;right: 10px;bottom: 0;display: none;}
+.video-players-right .media:first-child {margin-top: 20px !important;}
+.video-players-right .media.active .media-left img{border:2px solid red;}
+.video-players-right .media.active .media-left .playing{display: block;}
+.video-players-right .media .media-left img{width: 128px;height: 96px;}
+.video-players-right .media .media-body h4{font-size: 14px;margin-top: 5px;width: 180px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.hot-comment{background-color: #fff;padding: 10px;}
+.hot-comment-title{border-bottom: 1px solid #ddd;}
+.hot-comment-title h3{display: inline-block;}
+.hot-comment-title ul{display: inline-block;float: right;list-style: none;}
+.hot-comment-title ul li{display: inline-block;float: left; padding: 25px 20px 10px 20px;cursor: pointer;}
+.hot-comment-title ul li.active {color: red;border-bottom: 1px solid red;}
+.all-comment-title{margin: 20px 0;}
+.navbar-form{padding: 0 !important;}
+#comments{max-width: 1003px;max-height: 86px;padding: 10px;outline: none;border:1px solid #ddd;}
+.form-png{padding-left: 70px;}
+.form-png img{padding-right: 20px;}
+.head-png{width: 50px;height: 50px; border-radius: 50px;margin-left: 2px}
+.btn-fr{margin-left: 805px;}
+.all-comment .media{border-top: 1px solid #ddd;padding-top: 20px;}
+.praise-message{height: 40px;}
+.praise-message span{line-height: 40px;color: #ccc;vertical-align: middle;}
+.praise-message span img{height: 20px;}
+.praise{margin-bottom: 6px;margin-left: 20px;}
+.new-message{padding: 10px;background-color: #F5F5F5;margin-bottom: 10px;}
+.new-message-name{color: #999;padding-right: 5px;}
+.new-message-name::after {
+  content: " : 回复";
+}
+.load-more{margin: 50px 0;text-align: center;clear: both;}
+.load-more button{border:none;padding: 10px 75px;opacity: 0.2;background: #11418E;border-radius: 2px;font-size: 14px;color: #fff;}
+.new-video-lists{margin-top: 20px; background-color: #fff;padding: 10px;width: 1080px;}
+.original-video-info{display: inline-block;margin-top: 20px;}
+.original-video-info ul{padding: 0 !important;}
+.original-video-info ul li{width: 255px; display: inline-block;float: left;margin-right: 10px;  
+	margin-bottom: 12px;} 
+.original-video-li{width: 255px;height:162px;position: relative;}
+.original-video-li img{width: 255px;height:162px;}
+.original-video-li .img-caption {font-size: 13px;line-height: 15px;background-color: rgba(0,0,0,.3);position: absolute;left: 0;right: 0;bottom: 0;z-index: 10;padding:10px;color: #fff;text-align: left;}
+.original-video-li .smal-caption {font-size: 12px;color: #FFFFFF;line-height: 12px;;background-color: rgba(0,0,0,.3);position: absolute;right: 0;top: 10px;z-index: 10;padding:10px;color: #fff;text-align: left;border-top-left-radius: 20px;border-bottom-left-radius: 20px;}
+.original-video-footer{margin: 5px;}
+.original-video-footer-info{display: inline-block;}
+.original-video-footer-info h4{font-size: 14px;color: #333333;line-height: 4px;}
+.original-video-footer-info p{font-size: 12px;color: #666666;line-height: 12px;}
+.cold-coin{color: #EFB534;float: right;font-size: 14px;}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<title>财富天下</title>
+	<meta name="description" content="财富天下， 迈视网，中国首家专业金融理财服务视频网" />
+	<meta name="keywords" content='财富天下，迈视网 财经直播  股票直播 证券资讯' />
+	<meta name="renderer" content="webkit">
+	<meta id="viewport" name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1,user-scalable=no"/>
+	<link rel="stylesheet" href="css/video-info.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="tip"></div>
+	<header>
+		<ul>
+			<li><a href=""><img src="img/MAXTVlogo.png" alt=""></a></li>
+			<li><a href="">首页</a></li>
+			<li><a href="">大咖</a></li>
+			<li><a href="">大厅</a></li>
+			<li><a href="">行情</a></li>
+			<li><a href="">图文</a></li>
+			<li><a href="">视频</a></li>
+			<li><a href="">影视娱乐</a></li>
+			<li>
+			 <form class="navbar-form" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control nav-search" placeholder="Search" name="q">
+            <i class="glyphicon glyphicon-search search-btn"></i>
+        </div>
+        </form>
+      </li>
+			<li>
+				<a href="">登录 &nbsp;&nbsp;|</a>
+				<a href="">&nbsp;&nbsp; 注册</a>
+			</li>
+		</ul>
+	</header>	
+
+	<div class="video-info">
+		<div class="video-players">
+			<div class="video-players-left">
+				<div class="index-video-show" id="index_top_player">
+      		<p class="videowarningmsg txtcenter"><i class="icon-warning"></i>投资有风险,入市需谨慎</p>
+    		</div>
+
+    		<script type="text/javascript" src="/Public/Wechat/js/offlights_new.js" charset="utf-8"></script>
+    		<script>var box = new LightBox();</script>
+    		<script type="text/javascript" src="/Public/Wechat/js/ckplayer.js" charset="utf-8"></script>
+    		<script type="text/javascript">
+    			function videoPlayer(pcurl,phoneurl){
+    				var flashvars={
+    					f:pcurl,
+    					c:0,
+    					i:'http://www.maxtv.cn/Public/Home/images/btv_cfdmf_new.jpg',
+    					p:1,
+    					v:60,
+    					my_url:'http://www.maxtv.cn',
+    					my_pic:'http://www.maxtv.cn/Public/Home/my/images/live.jpg'
+    				};
+
+    				var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+    				var video=[phoneurl];
+   					//CKobject.embed('/Public/Wechat/swf/ckplayer.swf','a1','ckplayer_a1','600','449',false,flashvars,video);
+  				 CKobject.embed('/Public/Wechat/swf/ckplayer.swf','TopPlayer','ckplayer_a1','664','498',false,flashvars,video,params);
+ 					}
+
+ 					var arrid1 = ["rtmp://xinl.live.maxtv.cn/live/zb","rtmp://zqzxt.live.maxtv.cn/live/zb"];
+ 					var arrid2 = ["http://ydl.live.maxtv.cn/live/zb/playlist.m3u8","http://zqzxl.live.maxtv.cn/live/zb/playlist.m3u8"];
+ 					videoPlayer(arrid1[0],arrid2[0]);
+
+  				function closelights(){//关灯
+    			//alert(' 本演示不支持开关灯');
+    				window.box.Show();
+    				CKobject._K_('video').style.width='664px';
+    				CKobject._K_('video').style.height='498px';
+    				swfobject.getObjectById('ckplayer_a1').width=664;
+    				swfobject.getObjectById('ckplayer_a1').height=498;
+  				}
+  				function openlights(){//开灯
+    				//alert(' 本演示不支持开关灯');
+    				window.box.Close();
+    				CKobject._K_('video').style.width='664px';
+    				CKobject._K_('video').style.height='498px';
+    				swfobject.getObjectById('ckplayer_a1').width=664;
+    				swfobject.getObjectById('ckplayer_a1').height=498;
+ 					}
+				</script>
+			</div>
+			<div class="video-players-right">
+				<div class="media" onclick="videoPlayer('http://xinl.live.maxtv.cn/live/xx...)">
+      		<div class="media-left">
+      			<img class="media-object" src="http://placehold.it/128x96" alt="...">
+      			<span class="label label-danger playing">播放中</span>
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">大魔方全天0618大魔方全天0618大魔方全天0618</h4>
+      			<p>02:25:19</p>
+      			<div class="praise-message">
+      				<span>观看次数：8万</span>      				
+						</div>
+      		</div>
+      	</div>
+
+      	<div class="media active" onclick="videoPlayer('http://xinl.live.maxtv.cn/live/xx...)">
+      		<div class="media-left">
+      			<img class="media-object" src="http://placehold.it/128x96" alt="...">
+      			<span class="label label-danger playing">播放中</span>
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">大魔方全天0618大魔方全天0618大魔方全天0618</h4>
+      			<p>02:25:19</p>
+      			<div class="praise-message">
+      				<span>观看次数：8万</span>      				
+						</div>
+      		</div>
+      	</div>
+
+      	<div class="media" onclick="videoPlayer('http://xinl.live.maxtv.cn/live/xx...)">
+      		<div class="media-left">
+      			<img class="media-object" src="http://placehold.it/128x96" alt="...">
+      			<span class="label label-danger playing">播放中</span>
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">大魔方全天0618大魔方全天0618大魔方全天0618</h4>
+      			<p>02:25:19</p>
+      			<div class="praise-message">
+      				<span>观看次数：8万</span>      				
+						</div>
+      		</div>
+      	</div>
+
+      	<div class="media" onclick="videoPlayer('http://xinl.live.maxtv.cn/live/xx...)">
+      		<div class="media-left">
+      			<img class="media-object" src="http://placehold.it/128x96" alt="...">
+      			<span class="label label-danger playing">播放中</span>
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">大魔方全天0618大魔方全天0618大魔方全天0618</h4>
+      			<p>02:25:19</p>
+      			<div class="praise-message">
+      				<span>观看次数：8万</span>      				
+						</div>
+      		</div>
+      	</div>
+
+      	<div class="media" onclick="videoPlayer('http://xinl.live.maxtv.cn/live/xx...)">
+      		<div class="media-left">
+      			<img class="media-object" src="http://placehold.it/128x96" alt="...">
+      			<span class="label label-danger playing">播放中</span>
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">大魔方全天0618大魔方全天0618大魔方全天0618</h4>
+      			<p>02:25:19</p>
+      			<div class="praise-message">
+      				<span>观看次数：8万</span>      				
+						</div>
+      		</div>
+      	</div>
+			</div>
+		</div>
+
+		<div class="hot-comment">
+			<div class="hot-comment-title">
+				<h3>最新评论</h3>
+			</div>
+
+			<form class="navbar-form" role="form">
+				<label for="comments"><img class="head-png" src="http://placehold.it/50x50" alt=""></label>
+        <div class="input-group">
+           <textarea name="comments" id="comments" cols="140" rows="4"></textarea>
+        </div>
+        <div class="input-group form-png">
+        	<img src="img/emoji.png" alt="">
+        	<img src="img/uploadpic.png" alt="">
+        	<img src="img/share.png" alt="">
+        	<button class="btn btn-primary btn-fr">发布</button>
+        </div>
+      </form>
+
+      <div class="all-comment-title">
+      	<h4>全部评论 (20)</h4>
+      </div>
+
+      <div class="all-comment" id="allComment">
+      	<div class="media">
+      		<div class="media-left">
+      			<!-- <a href="#"> -->
+      			<img class="media-object img-circle" src="http://placehold.it/50x50" alt="...">
+      			<!-- </a> -->
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">聪明投资者</h4>
+      			<small>发表于 2017-07-24 08:25:19</small>
+      			<p>$乐视网(SZ300104)$ 乐视网与乐视控股正在进行时间赛跑，孙宏斌与贾跃亭对决，鹿死谁手，切割后乐视网的血是止住了，但成长也结束了，乐视控股虽然债务危机重重，但都已经锁定三年了，贾跃亭的激情还在，锋芒还在，整个布局还在，由高到低，给品牌带来巨大的推动作用但成长也结束了，乐视控股虽然债务危机重重，但都已经锁定三年了，贾跃亭的激情还在，锋芒还在，整个布局还在，由高到低，给品牌带来巨大的推动作用</p>
+						<div class="praise-message">
+      				<span><img src="img/comment.png" alt="">  <span class="message-count">88</span></span>      				
+      				<span><img src="img/zan.png" alt="" class="praise"> <span class="praise-count">23</span></span>
+						</div>
+						<div class="new-message">
+							<span class="new-message-name">冰冰与婷婷</span>乐视网(SZ300104)$ 乐视网与乐视控股正在进行时间赛跑，孙宏斌与贾跃亭对决，鹿死谁手，切割后乐视网的血是止住了，但成长也结束了，乐视控股虽然债务危机重重，但都已经锁定三年了，贾跃亭的激情还在，锋芒还在，整个布局还在，由高到低，给品牌带来巨大的推动作用但成长也结束了，乐视控股虽然债务危机重重，但都已经锁定三年了，贾跃亭的激情还在，
+						</div>
+      		</div>
+      	</div>
+
+      	<div class="media">
+      		<div class="media-left">
+      			<img class="media-object img-circle" src="http://placehold.it/50x50" alt="...">
+      		</div>
+      		<div class="media-body">
+      			<h4 class="media-heading">冰冰与婷婷</h4>
+      			<small>发表于 2017-10-24 08:25:19</small>
+      			<p>$乐视网(SZ300104)$ 乐视网与乐视控股正在进行时间赛跑，孙宏斌与贾跃亭对决，鹿死谁手，切割后乐视网的血是止住了，但成长也结束了，乐视控股虽然债务危机重重.</p>
+      			<div class="praise-message">
+      				<span><img src="img/comment.png" alt="">  <span class="message-count">88</span></span>      				
+      				<span><img src="img/zan.png" alt="" class="praise"> <span class="praise-count">23</span></span>
+						</div>
+
+						<div class="new-message" hidden="true">
+							<span class="new-message-name"></span>
+						</div>
+      		</div>
+      	</div>
+
+      	<div class="load-more">
+      		<button>加 载 更 多</button>
+      	</div>
+      </div>
+
+		</div>
+
+		<div class="new-video-lists">
+			<div class="hot-comment-title">
+				<h3>最新视频</h3>
+				<ul>
+					<li class="all-hot-new active">全部</li>
+					<li class="all-hot-new">当前热播</li>
+					<li class="all-hot-new">最新</li>
+				</ul> 
+			</div>
+			<div class="original-video-info">
+				<ul>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="original-video-li">
+							<img src="http://placehold.it/255x162" alt="">
+							<div class="img-caption">02:52:58</div>
+						</div>
+						<div class="original-video-footer">
+							<div class="class-room-footer-info">
+								<h4>财富大魔方全天0820</h4>
+								<span>发布：10月26日</span> <span class="cold-coin">￥25金币</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="load-more">
+      	<button>加 载 更 多</button>
+      </div>
+		</div>
+	</div>
+	
+	<script src="js/video-info.js"></script>
+</body>
+</html>
